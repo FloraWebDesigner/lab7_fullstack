@@ -1,0 +1,31 @@
+
+div.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 5px;
+    width: 15rem;
+    border: 1px solid gray;
+}
+
+img{
+    width: 15rem;
+    height:10rem;
+    object-fit: cover;
+}
+
+h3{
+    font-size: larger;
+    margin-top: 1em;
+}
+p{
+    margin-top: 0;
+    font-size: small;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+
+

@@ -1,0 +1,25 @@
+.colorblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border:1px solid white;
+    flex-basis: 20%;
+    height: 11rem;
+    box-sizing: border-box;
+}
+
+.colorblock h3{
+    font-size:1.3em;
+    font-family:fantasy;
+    color: white;
+}
+
+.colorblock p{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    color: white;
+    flex-wrap: nowrap;
+}
